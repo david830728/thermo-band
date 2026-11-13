@@ -1,0 +1,23 @@
+# 工具链与缓存（约 7.6G，绝不能进仓库）
+.arduinodata/
+.arduino-user/
+
+# 编译产物
+build/
+**/build/
+toolchain-check/
+*.elf
+*.map
+*.bin
+
+# 打包临时文件
+*.zip
+
+# 助手工作目录（会话记忆，不入库）
+.workbuddy/
+
+# 系统 / 编辑器
+.DS_Store
+.vscode/
+.idea/
+*.swp
