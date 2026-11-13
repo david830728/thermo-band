@@ -16,6 +16,11 @@ toolchain-check/
 # 助手工作目录（会话记忆，不入库）
 .workbuddy/
 
+# 领域私有文档：参赛汇报稿不公开，仅本地保留
+docs/01-学生参赛汇报稿.md
+docs/*汇报稿*
+docs/*答辩*
+
 # 系统 / 编辑器
 .DS_Store
 .vscode/
